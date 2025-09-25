@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="poem.rnc" type="application/relax-ng-compact-syntax"?>
+<ballad>
+    <title>Ballad of Booker T.</title> <author>by Langston Hughes</author>
+    <context marks="stamp">Library of Congress Seal</context>
+    <adress><place> Hollow Hills Farm,</place> <location pl="city,state">Monterey,
+            California,</location> <date>June 1, 1941</date>.</adress>
+    <poem type="ABCB">
+        <stanza num="1" rhyme="man/land">
+            <line type="A">Booker T.</line>
+            <line type="B">Was a practical man.</line>
+            <line type="C">He said, Till the soil</line>
+            <line type="B">And learn from the land.</line></stanza>
+        <stanza num="2" rhyme="are/afar">
+            <line type="A">Let down your bucket</line>
+            <line type="B">Where you are.</line>
+            <line type="C">Your fate is here</line>
+            <line type="B">And not afar.</line></stanza>
+        <stanza num="3" rhyme="man/hand">
+            <line type="A">To help yourself</line>
+            <line type="B">And your fellow man,</line>
+            <line type="C">Train your head,</line>
+            <line type="B">Your heart, and your hand.</line></stanza>
+        <stanza num="4" rhyme="meet/eat">
+            <line type="A">For smartness alone's</line>
+            <line type="B">Surely not meet—</line>
+            <line type="C">If you haven't at the same time</line>
+            <line type="B">Got something to eat.</line></stanza>
+        <stanza num="5" rhyme="school/tool">
+            <line type="A">Thus at Tuskegee</line>
+            <line type="B">He built a school</line>
+            <line type="C">With book-learning there</line>
+            <line type="B">And the workman's tool.</line></stanza>
+        <stanza num="6" rhyme="way/today">
+            <line type="A">He started out</line>
+            <line type="B">In a simple way—</line>
+            <line type="C">For yesterday</line>
+            <line type="B">Was not today.</line></stanza>
+        <stanza num="7" rhyme="talk/walk">
+            <line type="A">Sometimes he had</line>
+            <line type="B">Compromise in his talk—</line>
+            <line type="C">For a man must crawl</line>
+            <line type="B">Before he can walk—</line></stanza>
+        <stanza num="8" type="ABA" rhyme="'85/alive">
+            <line type="A">And in Alabama in '85</line>
+            <line type="B">A joker was lucky</line>
+            <line type="A">To be alive.</line></stanza>
+        <stanza num="9" rhyme="fool/tool">
+            <line type="A">But Booker T.</line>
+            <line type="B">Was nobody's fool:</line>
+            <line type="C">You may carve a dream</line>
+            <line type="B">With an humble tool.</line></stanza>
+        <stanza num="10" rhyme="down/ground">
+            <line type="A">The tallest tower</line>
+            <line type="B">Can tumble down</line>
+            <line type="C">If it be not rooted</line>
+            <line type="B">In solid ground.</line></stanza>
+        <stanza num="11" rhyme="man/hand">
+            <line type="A">So, being a far-seeing</line>
+            <line type="B">Practical man,</line>
+            <line type="C">He said, Train your head,</line>
+            <line type="B">Your heart, and your hand.</line></stanza>
+        <stanza num="12" rhyme="afar/are">
+            <line type="A">Your fate is here</line>
+            <line type="B">And not afar,</line>
+            <line type="C">So let down your bucket</line>
+            <line type="B">Where you are.</line></stanza></poem>
+</ballad>

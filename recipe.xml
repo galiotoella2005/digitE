@@ -9,9 +9,9 @@
         learned. Kidder also published his recipes in the printed volume, <cookbook>Receipts for
             Pastry and Cookery</cookbook>, in <date>1720</date>. </intro>
     <assemble>Take <ing>a pound of fresh butter</ing>
-      <ing>a pound of double refind sugar</ing> sifted fine <ing>a little beaten mace </ing>&amp; <ing>4 eggs</ing>
+      <ing>a pound of double refind sugar</ing> sifted fine <ing>a little beaten mace </ing>&amp; <ing quantity="4">4 eggs</ing>
         <combinr>beat them all together with</combinr>. <combine words="unclear">your hands till tis very leight &amp; looks curdling you put
-        thereto a pound &amp; 1/2 of flower roul them out into little cakes</combine> Our recipe (halved from
+        thereto a pound &amp; <ing measurement="0.5">1/2 of flower roul</ing> them out into little cakes</combine> Our recipe (halved from
         the original)</assemble>
     <materials>
         <ing measurement="0.5 lb.">1/2 lb. (2 sticks) butter, softened</ing>
