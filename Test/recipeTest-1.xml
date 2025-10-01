@@ -23,9 +23,9 @@
         <prep> Preparation <equip id="oven">Heat oven to <temp quant="350" unit="F">350
                     degrees</temp></equip>. Lightly <ingUse ref="btr">butter</ingUse> a <equip
                 id="bkdsh">medium-size flameproof baking dish <size depth="1.5" unit="inch">at least
-                    1 1/2 inches deep</size></equip>.</prep>
-        
-            <order><step n="2">Place the <combine ref="mlk g-sug egg van slt flr">milk, <ingUse ref="g-sug"
+                    1 1/2 inches deep</size></equip>. </prep>
+        <order>
+            <step n="2">Place the <combine ref="mlk g-sug egg van slt flr">milk, <ingUse ref="g-sug"
                         quant=".33" unit="cup">1/3 cup granulated sugar</ingUse>, eggs, vanilla,
                     salt and flour</combine> in a <equip id="blndr">blender. Blend at <setting>top
                         speed</setting> until smooth and frothy, <time dur="PT1M">about 1
@@ -45,7 +45,7 @@
             </step>
             <step n="5">Sprinkle with <ingUse ref="p-sug">powdered sugar</ingUse> just before
                 serving. (Clafoutis need not be served hot, but should still be warm. It will sink
-                slightly as it cools.)</step></order>
-
+                slightly as it cools.)</step>
+        </order>
     </recipe>
 </xml>
