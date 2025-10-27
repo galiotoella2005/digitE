@@ -4,7 +4,12 @@ background-color: MistyRose;
 color: indigo;
 font-family: arial, helvetica, sans-serif;
 }
+
 ol {list-style-type: lower-alpha;
-padding: 5em;
-    
+padding: 5em;    
+}
+
+ul { list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
