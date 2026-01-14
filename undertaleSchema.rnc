@@ -1,0 +1,42 @@
+start = undertale
+undertale = element undertale {metadata, (scene | altScene)*}
+metadata = element metadata {refList}
+refList = element refList {name+, expr+}
+#nameList = element nameList {name+}
+#bodyList = element bodyList {expr}
+name = element name {xmlid, text}
+xmlid = attribute xml:id {xsd:ID}
+expr = element expr {xmlid, text}
+scene = element scene {speakerRef, route, type, (act | battleStart | battle | battleEnd | altScene)*}
+# SCENE: add speakerRef element (rm from ACT)
+# look if required
+altScene = element altScene {speakerRef, route, choice, (act | battleStart | battle | battleEnd)*}
+choice = attribute choice {text}
+n = (xsd:integer)
+type = attribute type {text}
+route = attribute route {"genocide" | "neutral" | "pacifist" | "indestinct"}
+
+battleStart = element battleStart {type, opRef+, empty}
+battleEnd = element battleEnd {empty}
+# edit text later for mob types
+battle = element battle {phase, type, act+}
+phase = attribute phase {xsd:integer}
+
+# Reference declarations------------------------
+opRef = attribute opRef {refs}
+faceRef = attribute faceRef {ref}
+speakerRef = attribute speakerRef {ref}
+ref = (xsd:IDREF)
+refs = (xsd:IDREFS)
+#ID/IDREF not the way?
+# ----------------------------------------------
+
+act = element act {(bodyLang, p*) | p*}
+# ACT: changed from (speakerRef, (bodyLang, p*) | p*)
+bodyLang = element bodyLang {body?, faceRef?, (p+ | empty)}
+body = attribute body {"north" | "east" | "south" | "west" | "null"}
+p = element p {quiver?, text+}
+# P: removed punc
+quiver = attribute quiver {xsd:boolean}
+#punc = attribute punc {"?" | "." | "!" | "..." | "null"}
+#xmlidref = attribute xml:id {xsd:IDREF}
