@@ -31,69 +31,81 @@
                 0,0 will move down the screen to 20, 500. 
             See https://www.w3schools.com/graphics/svg_transformations.asp 
             -->
-           <g transform="translate(20 500)">
+           <g transform="translate(350 650)">
                <!-- Here we shift the 0, 0 coordinates over 20 (x direction) and down 500 (y direction from the top left of the screen -->
                
                
               <g><desc>Axis lines and legend</desc>
                   <!-- Let's plot this portion outside the for-each. Anything we can hand-draw that we only want to output once can go here -->
-               
-               
-          <line x1="0" x2="800" y1="0" y2="0" stroke-width="4" stroke="#990099"/>
-
-               <xsl:for-each select="(1 to 5)">
-                   <line x1="0" x2="800" y1="{position() * $grid-spacer}" 
-                       y2="{current() * $grid-spacer}" stroke-width="2" stroke="#dcb6de"/>
-
-            
-               <xsl:for-each select="(1 to 4)">
-                  <line x2="0" x1="800" y1="{position() *$grid-spacer}" y2="{current()* $grid-spacer}" stroke-width="4" stroke="#330066" />
-                
-               </xsl:for-each>
-            
-               </xsl:for-each>
+                  
+                  <g transform="translate(230 -550)">
+                      <text font-size="40">MAGIC EGG DATA</text>
+                      <text y="30" font-size="26"></text>
+                  </g>
             
             <xsl:for-each select="descendant::blob">
                 
                 <!-- We'll process the blob elements in here and output a shape 
                     for each one -->
+         
+            
             
              <g>
                   <desc>Magic egg data</desc>
-                <circle cx="{$x-spacer * position()}"
-                    cy="{-150}" 
-
-                    r="51"
+              <g transform="translate (-80 145)">  
+                  <circle cx="{$x-spacer * position()}"
+                    cy="{-150}"
+                    r="65"
                     fill="rgb({(position() * 60)}, {position() * 30}, {150})"
-
                     stroke="black"
                     stroke-width="2"
-                />
-                  <text x="{$x-spacer * position()}" y="-150" text-anchor="middle"> 
+                      > <animateMotion
+                          path="M0,0 q60,100 100,0 q60,-20 100,0"
+                          begin="0s"
+                          dur="10s"
+                          repeatCount="indefinite"/>
+                  </circle>
+              </g>
+                 
+                 <g transform="translate (-80 0)" ><text x="{$x-spacer * position()}" y="-5" text-anchor="middle"> 
                       <xsl:text>Magic Eggs: </xsl:text><xsl:value-of select="count(descendant::special[@whatsIt='magicEgg']) * $y-spacer"/>
-                  </text>
+                         <animateMotion
+                             path="M0,0 q60,100 100,0 q60,-20 100,0"
+                             begin="0s"
+                             dur="10s"
+                             repeatCount="indefinite"/> </text></g>
               </g>
               <g>
                   <desc>All other specials</desc>
                   
-               <g transform="translate (-75,-50)"> 
+               <g transform="translate (-140,-50)"> 
                    <rect x="{$x-spacer * position()}"
                       y="{-350}" 
-                      width="150"
+                      width="170"
                       height="100"
                       fill="rgb({position() * 50}, {position() * 100}, {position() * 200})"
                       stroke="black"
                       stroke-width="2"
-                  />
+                      
+                       ><animateMotion
+                           path="M0,0 q60,100 100,0 q60,-20 100,0"
+                           begin="0s"
+                           dur="10s"
+                           repeatCount="indefinite"/></rect>
                </g>
                   
                   
               
-                  <text x="{$x-spacer * position()}" y="-350" text-anchor="middle"> 
+                  <g  transform="translate (-55 -3)">  <text x="{$x-spacer * position()}" y="-350" text-anchor="middle"> 
                       <xsl:text>All other special items: </xsl:text>
                       <xsl:value-of select="count(descendant::special[not(@whatsIt='magicEgg')]) * $y-spacer"/>
+                          <animateMotion
+                              path="M0,0 q60,100 100,0 q60,-20 100,0"
+                              begin="0s"
+                              dur="10s"
+                              repeatCount="indefinite"/>
                   </text>
-
+</g>
      
 
               </g>
