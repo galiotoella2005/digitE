@@ -1,0 +1,24 @@
+Step 1: Deleted the beginning and end parts that were in the instructions
+
+Step 2: I removed the extra blank lines
+Find: \n{3,}
+Replace: \n\n
+
+Step 3: Find and mark all blocks of text as paragraphs
+Find: \n\n
+Replace: <p>\n</p>
+Then I manually added <p> to the beggining and end of the file 
+
+Step 4: Wrap whole chapters with <chapter> start and end tags
+Find: </title>
+Replace: 
+</title>
+</chapter>
+<chapter>
+
+Step 5: Find and auto-tag all the passages in quotes
+Find:"(.+?)" 
+Replace: <quote>\1</quote>
+
+Step 5: Added <book> and </book> manually
+
