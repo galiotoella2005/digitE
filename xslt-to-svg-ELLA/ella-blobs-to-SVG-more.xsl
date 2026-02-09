@@ -68,7 +68,8 @@
               </g>
                  
                  <g transform="translate (-80 0)" ><text x="{$x-spacer * position()}" y="-5" text-anchor="middle"> 
-                      <xsl:text>Magic Eggs: </xsl:text><xsl:value-of select="count(descendant::special[@whatsIt='magicEgg']) * $y-spacer"/>
+                      <xsl:text>Magic Eggs: </xsl:text>
+                         <xsl:value-of select="count(descendant::special[@whatsIt='magicEgg']) * $y-spacer"/>
                          <animateMotion
                              path="M0,0 q60,100 100,0 q60,-20 100,0"
                              begin="0s"
