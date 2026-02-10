@@ -6,7 +6,11 @@ Replace: \n\n
 
 Step 3: Find and mark all blocks of text as paragraphs
 Find: \n\n
+<<<<<<< HEAD
 Replace: <p>\0</p>
+=======
+Replace: <p>\n</p>
+>>>>>>> 5510e06a13216b8661fb52957767dffe9fe9a6f0
 Then I manually added <p> to the beggining and end of the file 
 
 Step 4: Wrap whole chapters with <chapter> start and end tags
