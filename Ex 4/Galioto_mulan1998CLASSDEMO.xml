@@ -1,4 +1,4 @@
-<screenplay><sp>[Disney's Mulan
+<xml><sp>[Disney's Mulan
 Compiled by Barry Adams during theater showings in 1998
 Last updated: August 18, 1998
 Source: The Internet Movie Scripts Database (IMSDb): https://imsdb.com/scripts/Mulan.html]
@@ -72,8 +72,8 @@ ancestors]</sp>
 
 <sp>Fa Zhou:  Honorable ancestors, please help Mulan impress the matchmaker today. </sp>
 
-
-<sp>Little Brother [running into the temple and around Fa Zhou scattering grain
+<sp>
+Little Brother [running into the temple and around Fa Zhou scattering grain
 around the floor]: Bark, bark, bark, bark, bark.</sp>
 
 <sp>[The chickens follow Little Brother into the temple and begin to feed on the
@@ -1558,9 +1558,9 @@ Shan-Yu's war cry  The Hun army follows]</sp>
 <sp>[The line of Shang's troops with Mulan at the end draw their swords.  Mulan looks down at her sword and sees the reflection of a large snow
 embankment hanging to the side of a cliff.  She rushes forward]</sp>
 
-<sp>Yao [being pushed aside by Mulan as she grabs the cannon]:  Hey.</sp>
+<sp>Yao [being pushed aside by Mulan as she grabs the cannon]:  Hey.
  
-<sp>Shang:  Ping, come back.  Ping!</sp>
+Shang:  Ping, come back.  Ping!</sp>
 
 <sp>[Mulan charges forward towards the oncoming horde of the Hun army being led by Shan-Yu and his falcon.  Mushu looks over her at the
 oncoming horde with worry in his eyes]</sp>
@@ -2212,4 +2212,4 @@ chickens follow him in]</sp>
 <sp>[Roll Credits]</sp>
 
 [The End]
-</screenplay>
+</xml>
