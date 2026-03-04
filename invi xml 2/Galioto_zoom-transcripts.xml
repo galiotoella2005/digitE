@@ -1,0 +1,954 @@
+<trancript>
+   <entry>
+      <number>1</number>
+      <timestamp from='00:00:03,190' to='00:00:07,330'>  </timestamp>
+      <text>Greetings digit 210.</text>
+      <text>So at the end of class</text>
+   </entry>
+   <entry>
+      <number>2</number>
+      <timestamp from='00:00:07,330' to='00:00:10,510'>  </timestamp>
+      <text>today on Friday January</text>
+      <text>30th I left us on a</text>
+   </entry>
+   <entry>
+      <number>3</number>
+      <timestamp from='00:00:10,510' to='00:00:13,250'>  </timestamp>
+      <text>bit of a cliffhanger</text>
+      <text>with a bit of broken</text>
+   </entry>
+   <entry>
+      <number>4</number>
+      <timestamp from='00:00:13,250' to='00:00:15,990'>  </timestamp>
+      <text>code. Let me remind</text>
+      <text>you what we were trying</text>
+   </entry>
+   <entry>
+      <number>5</number>
+      <timestamp from='00:00:15,990' to='00:00:19,090'>  </timestamp>
+      <text>to do. I have now fixed</text>
+      <text>it so I'm going to</text>
+   </entry>
+   <entry>
+      <number>6</number>
+      <timestamp from='00:00:19,090' to='00:00:22,830'>  </timestamp>
+      <text>show you the graph the</text>
+      <text>way I wanted to plot</text>
+   </entry>
+   <entry>
+      <number>7</number>
+      <timestamp from='00:00:22,830' to='00:00:27,330'>  </timestamp>
+      <text>it. Here it is and</text>
+      <text>this is the number of</text>
+   </entry>
+   <entry>
+      <number>8</number>
+      <timestamp from='00:00:27,330' to='00:00:31,880'>  </timestamp>
+      <text>speeches in each location</text>
+      <text>of the Dan to Dan</text>
+   </entry>
+   <entry>
+      <number>9</number>
+      <timestamp from='00:00:31,880' to='00:00:34,950'>  </timestamp>
+      <text>episode that we were</text>
+      <text>looking at. And as you see,</text>
+   </entry>
+   <entry>
+      <number>10</number>
+      <timestamp from='00:00:34,950' to='00:00:36,830'>  </timestamp>
+      <text>this is what I wanted</text>
+      <text>to do. I wanted to</text>
+   </entry>
+   <entry>
+      <number>11</number>
+      <timestamp from='00:00:36,830' to='00:00:39,510'>  </timestamp>
+      <text>put the location with</text>
+      <text>the most speeches at</text>
+   </entry>
+   <entry>
+      <number>12</number>
+      <timestamp from='00:00:39,510' to='00:00:42,410'>  </timestamp>
+      <text>the bottom of the graph,</text>
+      <text>and then I could plot</text>
+   </entry>
+   <entry>
+      <number>13</number>
+      <timestamp from='00:00:42,410' to='00:00:45,390'>  </timestamp>
+      <text>them in descending</text>
+      <text>order. So each one of</text>
+   </entry>
+   <entry>
+      <number>14</number>
+      <timestamp from='00:00:45,390' to='00:00:47,890'>  </timestamp>
+      <text>these little wedges</text>
+      <text>gets smaller and smaller</text>
+   </entry>
+   <entry>
+      <number>15</number>
+      <timestamp from='00:00:47,890' to='00:00:50,530'>  </timestamp>
+      <text>based on the number</text>
+      <text>of speeches. We go 49</text>
+   </entry>
+   <entry>
+      <number>16</number>
+      <timestamp from='00:00:50,530' to='00:00:55,590'>  </timestamp>
+      <text>to 33 to 24. so you see</text>
+      <text>how that works so how</text>
+   </entry>
+   <entry>
+      <number>17</number>
+      <timestamp from='00:00:55,590' to='00:01:01,570'>  </timestamp>
+      <text>did I do that and</text>
+      <text>let me stop the share</text>
+   </entry>
+   <entry>
+      <number>18</number>
+      <timestamp from='00:01:01,570' to='00:01:07,850'>  </timestamp>
+      <text>restart it switch to my</text>
+      <text>other desktop and here</text>
+   </entry>
+   <entry>
+      <number>19</number>
+      <timestamp from='00:01:07,850' to='00:01:13,110'>  </timestamp>
+      <text>I think you can see</text>
+      <text>my code so previously</text>
+   </entry>
+   <entry>
+      <number>20</number>
+      <timestamp from='00:01:13,110' to='00:01:17,070'>  </timestamp>
+      <text>we had been sort we</text>
+      <text>had been outputting a</text>
+   </entry>
+   <entry>
+      <number>21</number>
+      <timestamp from='00:01:17,070' to='00:01:21,950'>  </timestamp>
+      <text>chunk of like a little</text>
+      <text>bar to stack based on</text>
+   </entry>
+   <entry>
+      <number>22</number>
+      <timestamp from='00:01:21,950' to='00:01:25,610'>  </timestamp>
+      <text>these distinct values</text>
+      <text>of the where attributes</text>
+   </entry>
+   <entry>
+      <number>23</number>
+      <timestamp from='00:01:25,610' to='00:01:29,650'>  </timestamp>
+      <text>on stage and previously</text>
+      <text>I had this little</text>
+   </entry>
+   <entry>
+      <number>24</number>
+      <timestamp from='00:01:29,650' to='00:01:33,170'>  </timestamp>
+      <text>expath sort what that</text>
+      <text>did is sort these</text>
+   </entry>
+   <entry>
+      <number>25</number>
+      <timestamp from='00:01:33,170' to='00:01:36,590'>  </timestamp>
+      <text>distinct values the default</text>
+      <text>way and expath which</text>
+   </entry>
+   <entry>
+      <number>26</number>
+      <timestamp from='00:01:36,590' to='00:01:39,270'>  </timestamp>
+      <text>is alphabetical order</text>
+      <text>and we decided that</text>
+   </entry>
+   <entry>
+      <number>27</number>
+      <timestamp from='00:01:39,270' to='00:01:41,090'>  </timestamp>
+      <text>didn't really look so</text>
+      <text>good or make that much</text>
+   </entry>
+   <entry>
+      <number>28</number>
+      <timestamp from='00:01:41,090' to='00:01:43,310'>  </timestamp>
+      <text>sense so we're gonna</text>
+      <text>do it a different way</text>
+   </entry>
+   <entry>
+      <number>29</number>
+      <timestamp from='00:01:43,310' to='00:01:48,910'>  </timestamp>
+      <text>to fix things I</text>
+      <text>removed this sort and I</text>
+   </entry>
+   <entry>
+      <number>30</number>
+      <timestamp from='00:01:48,910' to='00:01:54,730'>  </timestamp>
+      <text>created a new variable</text>
+      <text>down here that I'm going</text>
+   </entry>
+   <entry>
+      <number>31</number>
+      <timestamp from='00:01:54,730' to='00:01:57,470'>  </timestamp>
+      <text>to take out a little</text>
+      <text>extra white space here</text>
+   </entry>
+   <entry>
+      <number>32</number>
+      <timestamp from='00:01:57,920' to='00:02:03,210'>  </timestamp>
+      <text>I'm calling this one</text>
+      <text>sorted stage locations</text>
+   </entry>
+   <entry>
+      <number>33</number>
+      <timestamp from='00:02:03,350' to='00:02:06,250'>  </timestamp>
+      <text>you saw me do this</text>
+      <text>earlier in class where</text>
+   </entry>
+   <entry>
+      <number>34</number>
+      <timestamp from='00:02:06,250' to='00:02:10,030'>  </timestamp>
+      <text>I unpack a variable and</text>
+      <text>I go through things,</text>
+   </entry>
+   <entry>
+      <number>35</number>
+      <timestamp from='00:02:10,030' to='00:02:12,470'>  </timestamp>
+      <text>this is going to make</text>
+      <text>a series of strings.</text>
+   </entry>
+   <entry>
+      <number>36</number>
+      <timestamp from='00:02:12,590' to='00:02:15,750'>  </timestamp>
+      <text>This time, I start</text>
+      <text>with the distinct stage</text>
+   </entry>
+   <entry>
+      <number>37</number>
+      <timestamp from='00:02:15,750' to='00:02:18,750'>  </timestamp>
+      <text>locations that we</text>
+      <text>calculated up here,</text>
+   </entry>
+   <entry>
+      <number>38</number>
+      <timestamp from='00:02:18,980' to='00:02:22,670'>  </timestamp>
+      <text>and I'm going to go</text>
+      <text>in, and I'm actually</text>
+   </entry>
+   <entry>
+      <number>39</number>
+      <timestamp from='00:02:22,670' to='00:02:27,370'>  </timestamp>
+      <text>using the XSL sort in</text>
+      <text>here. This made a nice</text>
+   </entry>
+   <entry>
+      <number>40</number>
+      <timestamp from='00:02:27,370' to='00:02:29,650'>  </timestamp>
+      <text>safe space for me</text>
+      <text>to work this out and</text>
+   </entry>
+   <entry>
+      <number>41</number>
+      <timestamp from='00:02:29,650' to='00:02:32,310'>  </timestamp>
+      <text>check my work to make</text>
+      <text>sure it was it was</text>
+   </entry>
+   <entry>
+      <number>42</number>
+      <timestamp from='00:02:32,310' to='00:02:37,670'>  </timestamp>
+      <text>working so I said XSL</text>
+      <text>sort but we're gonna</text>
+   </entry>
+   <entry>
+      <number>43</number>
+      <timestamp from='00:02:37,670' to='00:02:42,490'>  </timestamp>
+      <text>do this based on the</text>
+      <text>XML tree we're gonna</text>
+   </entry>
+   <entry>
+      <number>44</number>
+      <timestamp from='00:02:42,490' to='00:02:46,890'>  </timestamp>
+      <text>go down find the stages</text>
+      <text>where the current</text>
+   </entry>
+   <entry>
+      <number>45</number>
+      <timestamp from='00:02:46,890' to='00:02:51,770'>  </timestamp>
+      <text>one where the where</text>
+      <text>the where attribute</text>
+   </entry>
+   <entry>
+      <number>46</number>
+      <timestamp from='00:02:51,770' to='00:02:54,470'>  </timestamp>
+      <text>equals the current</text>
+      <text>value we're gonna go</text>
+   </entry>
+   <entry>
+      <number>47</number>
+      <timestamp from='00:02:54,470' to='00:02:56,630'>  </timestamp>
+      <text>reach into the speeches</text>
+      <text>and count them.</text>
+   </entry>
+   <entry>
+      <number>48</number>
+      <timestamp from='00:02:56,910' to='00:03:02,250'>  </timestamp>
+      <text>And what xsl sort</text>
+      <text>does is it changes the</text>
+   </entry>
+   <entry>
+      <number>49</number>
+      <timestamp from='00:03:02,250' to='00:03:06,730'>  </timestamp>
+      <text>order of the output</text>
+      <text>based on the number</text>
+   </entry>
+   <entry>
+      <number>50</number>
+      <timestamp from='00:03:06,730' to='00:03:10,650'>  </timestamp>
+      <text>of counts. So this</text>
+      <text>value here is going to</text>
+   </entry>
+   <entry>
+      <number>51</number>
+      <timestamp from='00:03:10,650' to='00:03:14,250'>  </timestamp>
+      <text>determine the order</text>
+      <text>of the output of xsl</text>
+   </entry>
+   <entry>
+      <number>52</number>
+      <timestamp from='00:03:14,250' to='00:03:17,090'>  </timestamp>
+      <text>for each. I have to</text>
+      <text>output something or</text>
+   </entry>
+   <entry>
+      <number>53</number>
+      <timestamp from='00:03:17,090' to='00:03:20,150'>  </timestamp>
+      <text>this doesn't work. So</text>
+      <text>I say output the value</text>
+   </entry>
+   <entry>
+      <number>54</number>
+      <timestamp from='00:03:20,150' to='00:03:24,130'>  </timestamp>
+      <text>of the current</text>
+      <text>location at this point.</text>
+   </entry>
+   <entry>
+      <number>55</number>
+      <timestamp from='00:03:24,190' to='00:03:26,950'>  </timestamp>
+      <text>XSL sort is a little</text>
+      <text>bit of magic, just</text>
+   </entry>
+   <entry>
+      <number>56</number>
+      <timestamp from='00:03:26,950' to='00:03:29,990'>  </timestamp>
+      <text>like XPath sort, but</text>
+      <text>the way it's going</text>
+   </entry>
+   <entry>
+      <number>57</number>
+      <timestamp from='00:03:29,990' to='00:03:34,210'>  </timestamp>
+      <text>to work is like every</text>
+      <text>time the XSL foreach</text>
+   </entry>
+   <entry>
+      <number>58</number>
+      <timestamp from='00:03:34,210' to='00:03:36,230'>  </timestamp>
+      <text>runs, it's going</text>
+      <text>to grab a count</text>
+   </entry>
+   <entry>
+      <number>59</number>
+      <timestamp from='00:03:36,230' to='00:03:39,770'>  </timestamp>
+      <text>value, and the output</text>
+      <text>of this foreach is</text>
+   </entry>
+   <entry>
+      <number>60</number>
+      <timestamp from='00:03:39,770' to='00:03:44,170'>  </timestamp>
+      <text>going to be determined</text>
+      <text>by the sort order,</text>
+   </entry>
+   <entry>
+      <number>61</number>
+      <timestamp from='00:03:44,170' to='00:03:46,850'>  </timestamp>
+      <text>which we've now made</text>
+      <text>based on a number.</text>
+   </entry>
+   <entry>
+      <number>62</number>
+      <timestamp from='00:03:47,310' to='00:03:51,190'>  </timestamp>
+      <text>okay I checked this in</text>
+      <text>an XSL comment because</text>
+   </entry>
+   <entry>
+      <number>63</number>
+      <timestamp from='00:03:51,190' to='00:03:53,610'>  </timestamp>
+      <text>I really wanted to</text>
+      <text>make sure that I had</text>
+   </entry>
+   <entry>
+      <number>64</number>
+      <timestamp from='00:03:53,610' to='00:03:56,550'>  </timestamp>
+      <text>a series of strings</text>
+      <text>that were based on my</text>
+   </entry>
+   <entry>
+      <number>65</number>
+      <timestamp from='00:03:56,550' to='00:03:59,630'>  </timestamp>
+      <text>sort order and I knew</text>
+      <text>that spaceship was</text>
+   </entry>
+   <entry>
+      <number>66</number>
+      <timestamp from='00:03:59,630' to='00:04:02,810'>  </timestamp>
+      <text>going to be the largest</text>
+      <text>one so when I run this</text>
+   </entry>
+   <entry>
+      <number>67</number>
+      <timestamp from='00:04:02,810' to='00:04:04,770'>  </timestamp>
+      <text>I'm going to like</text>
+      <text>make sure I save this</text>
+   </entry>
+   <entry>
+      <number>68</number>
+      <timestamp from='00:04:04,770' to='00:04:08,150'>  </timestamp>
+      <text>and run it I'm going</text>
+      <text>to go take a look at</text>
+   </entry>
+   <entry>
+      <number>69</number>
+      <timestamp from='00:04:08,150' to='00:04:12,150'>  </timestamp>
+      <text>my output and try to</text>
+      <text>move my zoom screen over</text>
+   </entry>
+   <entry>
+      <number>70</number>
+      <timestamp from='00:04:12,330' to='00:04:15,670'>  </timestamp>
+      <text>and you can see my</text>
+      <text>sorted stage locations</text>
+   </entry>
+   <entry>
+      <number>71</number>
+      <timestamp from='00:04:15,670' to='00:04:19,010'>  </timestamp>
+      <text>are spaceship hallway</text>
+      <text>hospital and as soon</text>
+   </entry>
+   <entry>
+      <number>72</number>
+      <timestamp from='00:04:19,010' to='00:04:21,490'>  </timestamp>
+      <text>as i saw that i knew</text>
+      <text>this was what i wanted</text>
+   </entry>
+   <entry>
+      <number>73</number>
+      <timestamp from='00:04:21,490' to='00:04:24,210'>  </timestamp>
+      <text>um i wanted i did</text>
+      <text>that i want to look at</text>
+   </entry>
+   <entry>
+      <number>74</number>
+      <timestamp from='00:04:24,210' to='00:04:26,250'>  </timestamp>
+      <text>my output usually</text>
+      <text>when i'm about to plot</text>
+   </entry>
+   <entry>
+      <number>75</number>
+      <timestamp from='00:04:26,250' to='00:04:30,050'>  </timestamp>
+      <text>to make sure i i got</text>
+      <text>it right so i may have</text>
+   </entry>
+   <entry>
+      <number>76</number>
+      <timestamp from='00:04:30,050' to='00:04:32,830'>  </timestamp>
+      <text>been able to i i didn't</text>
+      <text>get this working in</text>
+   </entry>
+   <entry>
+      <number>77</number>
+      <timestamp from='00:04:32,830' to='00:04:34,930'>  </timestamp>
+      <text>the real for each</text>
+      <text>over this where i'm</text>
+   </entry>
+   <entry>
+      <number>78</number>
+      <timestamp from='00:04:34,930' to='00:04:37,510'>  </timestamp>
+      <text>plotting the g elements</text>
+      <text>but i did it up here</text>
+   </entry>
+   <entry>
+      <number>79</number>
+      <timestamp from='00:04:37,510' to='00:04:40,690'>  </timestamp>
+      <text>i'm going to use sorted</text>
+      <text>stage locations now</text>
+   </entry>
+   <entry>
+      <number>80</number>
+      <timestamp from='00:04:41,190' to='00:04:44,790'>  </timestamp>
+      <text>and when I began</text>
+      <text>plotting I changed this</text>
+   </entry>
+   <entry>
+      <number>81</number>
+      <timestamp from='00:04:44,790' to='00:04:48,050'>  </timestamp>
+      <text>from distinct stage</text>
+      <text>locations to sorted stage</text>
+   </entry>
+   <entry>
+      <number>82</number>
+      <timestamp from='00:04:48,050' to='00:04:50,490'>  </timestamp>
+      <text>locations and you'll</text>
+      <text>see that change when</text>
+   </entry>
+   <entry>
+      <number>83</number>
+      <timestamp from='00:04:50,490' to='00:04:54,400'>  </timestamp>
+      <text>I go to push my code</text>
+      <text>in a few minutes I'll</text>
+   </entry>
+   <entry>
+      <number>84</number>
+      <timestamp from='00:04:54,870' to='00:04:57,950'>  </timestamp>
+      <text>that this has changed</text>
+      <text>and now it's it's going</text>
+   </entry>
+   <entry>
+      <number>85</number>
+      <timestamp from='00:04:57,950' to='00:05:00,750'>  </timestamp>
+      <text>to be plotting these</text>
+      <text>in the sort order and</text>
+   </entry>
+   <entry>
+      <number>86</number>
+      <timestamp from='00:05:00,750' to='00:05:02,650'>  </timestamp>
+      <text>then I keep pretty much</text>
+      <text>everything else the</text>
+   </entry>
+   <entry>
+      <number>87</number>
+      <timestamp from='00:05:02,650' to='00:05:06,530'>  </timestamp>
+      <text>same except I needed</text>
+      <text>to remember to change</text>
+   </entry>
+   <entry>
+      <number>88</number>
+      <timestamp from='00:05:06,530' to='00:05:09,570'>  </timestamp>
+      <text>my stack that this like</text>
+      <text>change that variable</text>
+   </entry>
+   <entry>
+      <number>89</number>
+      <timestamp from='00:05:09,570' to='00:05:11,750'>  </timestamp>
+      <text>down here where I'm</text>
+      <text>doing the stacking</text>
+   </entry>
+   <entry>
+      <number>90</number>
+      <timestamp from='00:05:11,750' to='00:05:14,110'>  </timestamp>
+      <text>so instead of making</text>
+      <text>that based on distinct</text>
+   </entry>
+   <entry>
+      <number>91</number>
+      <timestamp from='00:05:14,110' to='00:05:16,730'>  </timestamp>
+      <text>stage locations I now</text>
+      <text>needed to use my new</text>
+   </entry>
+   <entry>
+      <number>92</number>
+      <timestamp from='00:05:16,730' to='00:05:19,350'>  </timestamp>
+      <text>variable as soon as</text>
+      <text>I did that I get the</text>
+   </entry>
+   <entry>
+      <number>93</number>
+      <timestamp from='00:05:19,350' to='00:05:24,270'>  </timestamp>
+      <text>output that I want and</text>
+      <text>I will switch my share</text>
+   </entry>
+   <entry>
+      <number>94</number>
+      <timestamp from='00:05:24,270' to='00:05:28,420'>  </timestamp>
+      <text>again to just show this</text>
+      <text>to you it all works</text>
+   </entry>
+   <entry>
+      <number>95</number>
+      <timestamp from='00:05:28,420' to='00:05:33,360'>  </timestamp>
+      <text>this is all working</text>
+      <text>the way I intended and</text>
+   </entry>
+   <entry>
+      <number>96</number>
+      <timestamp from='00:05:33,530' to='00:05:36,510'>  </timestamp>
+      <text>we've got the output</text>
+      <text>coming out sorting is</text>
+   </entry>
+   <entry>
+      <number>97</number>
+      <timestamp from='00:05:36,510' to='00:05:39,050'>  </timestamp>
+      <text>a little tricky but</text>
+      <text>now that you have one</text>
+   </entry>
+   <entry>
+      <number>98</number>
+      <timestamp from='00:05:39,050' to='00:05:42,510'>  </timestamp>
+      <text>that's working to use</text>
+      <text>as a model I hope that</text>
+   </entry>
+   <entry>
+      <number>99</number>
+      <timestamp from='00:05:42,510' to='00:05:44,350'>  </timestamp>
+      <text>you'll find this</text>
+      <text>helpful in your own code</text>
+   </entry>
+   <entry>
+      <number>100</number>
+      <timestamp from='00:05:44,350' to='00:05:48,350'>  </timestamp>
+      <text>okay so two videos</text>
+      <text>today and I hope this is</text>
+   </entry>
+   <entry>
+      <number>101</number>
+      <timestamp from='00:05:48,350' to='00:05:51,310'>  </timestamp>
+      <text>useful to you good luck</text>
+      <text>with the assignment</text>
+   </entry>
+   <entry>
+      <number>102</number>
+      <timestamp from='00:05:51,310' to='00:05:54,090'>  </timestamp>
+      <text>for next week I'm gonna</text>
+      <text>quickly look at that</text>
+   </entry>
+   <entry>
+      <number>103</number>
+      <timestamp from='00:05:54,090' to='00:05:56,570'>  </timestamp>
+      <text>while I'm on the zoom</text>
+      <text>with you let's go</text>
+   </entry>
+   <entry>
+      <number>104</number>
+      <timestamp from='00:05:56,570' to='00:06:02,470'>  </timestamp>
+      <text>back here take a look</text>
+      <text>at assignments so this</text>
+   </entry>
+   <entry>
+      <number>105</number>
+      <timestamp from='00:06:02,470' to='00:06:04,990'>  </timestamp>
+      <text>is a little little</text>
+      <text>exercise for Monday to</text>
+   </entry>
+   <entry>
+      <number>106</number>
+      <timestamp from='00:06:04,990' to='00:06:07,030'>  </timestamp>
+      <text>introduce the new</text>
+      <text>regular expressions unit</text>
+   </entry>
+   <entry>
+      <number>107</number>
+      <timestamp from='00:06:07,030' to='00:06:09,610'>  </timestamp>
+      <text>but this very last</text>
+      <text>thing it's like kind of</text>
+   </entry>
+   <entry>
+      <number>108</number>
+      <timestamp from='00:06:09,610' to='00:06:12,470'>  </timestamp>
+      <text>our last hurrah for</text>
+      <text>this unit plotting svg</text>
+   </entry>
+   <entry>
+      <number>109</number>
+      <timestamp from='00:06:12,470' to='00:06:16,310'>  </timestamp>
+      <text>with xslt it's the small</text>
+      <text>test project i'm going</text>
+   </entry>
+   <entry>
+      <number>110</number>
+      <timestamp from='00:06:16,310' to='00:06:20,850'>  </timestamp>
+      <text>to invite you to go</text>
+      <text>over um choose some</text>
+   </entry>
+   <entry>
+      <number>111</number>
+      <timestamp from='00:06:20,850' to='00:06:24,750'>  </timestamp>
+      <text>xml to start with um</text>
+      <text>i was suggesting this</text>
+   </entry>
+   <entry>
+      <number>112</number>
+      <timestamp from='00:06:24,750' to='00:06:28,150'>  </timestamp>
+      <text>um like working the</text>
+      <text>vogue project team could</text>
+   </entry>
+   <entry>
+      <number>113</number>
+      <timestamp from='00:06:28,150' to='00:06:30,370'>  </timestamp>
+      <text>work with a collection</text>
+      <text>of their files but</text>
+   </entry>
+   <entry>
+      <number>114</number>
+      <timestamp from='00:06:30,370' to='00:06:33,410'>  </timestamp>
+      <text>you can kind of see um</text>
+      <text>some interesting things</text>
+   </entry>
+   <entry>
+      <number>115</number>
+      <timestamp from='00:06:33,410' to='00:06:38,270'>  </timestamp>
+      <text>here coded with rs you</text>
+      <text>could count materials</text>
+   </entry>
+   <entry>
+      <number>116</number>
+      <timestamp from='00:06:38,270' to='00:06:42,690'>  </timestamp>
+      <text>um fabrics garments</text>
+      <text>like find something</text>
+   </entry>
+   <entry>
+      <number>117</number>
+      <timestamp from='00:06:42,690' to='00:06:45,750'>  </timestamp>
+      <text>get counts of things</text>
+      <text>and count how many</text>
+   </entry>
+   <entry>
+      <number>118</number>
+      <timestamp from='00:06:45,750' to='00:06:47,930'>  </timestamp>
+      <text>there are of that type</text>
+      <text>so i'd suggest maybe</text>
+   </entry>
+   <entry>
+      <number>119</number>
+      <timestamp from='00:06:47,930' to='00:06:51,690'>  </timestamp>
+      <text>looking at colors or</text>
+      <text>something because this</text>
+   </entry>
+   <entry>
+      <number>120</number>
+      <timestamp from='00:06:51,690' to='00:06:54,470'>  </timestamp>
+      <text>team was really interested</text>
+      <text>in the colors like</text>
+   </entry>
+   <entry>
+      <number>121</number>
+      <timestamp from='00:06:54,470' to='00:06:56,750'>  </timestamp>
+      <text>what colors were</text>
+      <text>popular in a given era.</text>
+   </entry>
+   <entry>
+      <number>122</number>
+      <timestamp from='00:06:57,350' to='00:07:01,990'>  </timestamp>
+      <text>And you can count</text>
+      <text>the number of</text>
+   </entry>
+   <entry>
+      <number>123</number>
+      <timestamp from='00:07:01,990' to='00:07:04,670'>  </timestamp>
+      <text>things of a kind</text>
+      <text>that have variety,</text>
+   </entry>
+   <entry>
+      <number>124</number>
+      <timestamp from='00:07:04,670' to='00:07:06,290'>  </timestamp>
+      <text>like what are the</text>
+      <text>different values</text>
+   </entry>
+   <entry>
+      <number>125</number>
+      <timestamp from='00:07:06,290' to='00:07:09,070'>  </timestamp>
+      <text>of color in this</text>
+      <text>chunk of code.</text>
+   </entry>
+   <entry>
+      <number>126</number>
+      <timestamp from='00:07:09,310' to='00:07:11,490'>  </timestamp>
+      <text>You can, if you're ready</text>
+   </entry>
+   <entry>
+      <number>127</number>
+      <timestamp from='00:07:11,490' to='00:07:13,070'>  </timestamp>
+      <text>to process a collection,</text>
+   </entry>
+   <entry>
+      <number>128</number>
+      <timestamp from='00:07:13,750' to='00:07:17,070'>  </timestamp>
+      <text>you could process the</text>
+      <text>collection of these</text>
+   </entry>
+   <entry>
+      <number>129</number>
+      <timestamp from='00:07:17,070' to='00:07:19,810'>  </timestamp>
+      <text>TEI files. I'm going</text>
+      <text>to prepare a mock-up of</text>
+   </entry>
+   <entry>
+      <number>130</number>
+      <timestamp from='00:07:19,810' to='00:07:21,850'>  </timestamp>
+      <text>that this weekend so</text>
+      <text>that you know how to</text>
+   </entry>
+   <entry>
+      <number>131</number>
+      <timestamp from='00:07:21,850' to='00:07:24,330'>  </timestamp>
+      <text>work with a collection</text>
+      <text>of XML instead of just</text>
+   </entry>
+   <entry>
+      <number>132</number>
+      <timestamp from='00:07:24,330' to='00:07:28,190'>  </timestamp>
+      <text>one file to make an</text>
+      <text>SVG plot but it's gonna</text>
+   </entry>
+   <entry>
+      <number>133</number>
+      <timestamp from='00:07:28,190' to='00:07:30,070'>  </timestamp>
+      <text>work essentially the</text>
+      <text>same way you sort of</text>
+   </entry>
+   <entry>
+      <number>134</number>
+      <timestamp from='00:07:30,070' to='00:07:33,830'>  </timestamp>
+      <text>drill into these files</text>
+      <text>count the number of</text>
+   </entry>
+   <entry>
+      <number>135</number>
+      <timestamp from='00:07:33,830' to='00:07:37,750'>  </timestamp>
+      <text>things that like that</text>
+      <text>represent a color and</text>
+   </entry>
+   <entry>
+      <number>136</number>
+      <timestamp from='00:07:37,750' to='00:07:42,510'>  </timestamp>
+      <text>output them so we'll</text>
+      <text>try that another option</text>
+   </entry>
+   <entry>
+      <number>137</number>
+      <timestamp from='00:07:42,510' to='00:07:44,910'>  </timestamp>
+      <text>you could look at is</text>
+      <text>the pokey this Pokemon</text>
+   </entry>
+   <entry>
+      <number>138</number>
+      <timestamp from='00:07:44,910' to='00:07:49,730'>  </timestamp>
+      <text>moves file which let</text>
+      <text>me see where did I put</text>
+   </entry>
+   <entry>
+      <number>139</number>
+      <timestamp from='00:07:49,730' to='00:07:55,390'>  </timestamp>
+      <text>that that's going to be</text>
+      <text>in what it's probably</text>
+   </entry>
+   <entry>
+      <number>140</number>
+      <timestamp from='00:07:55,390' to='00:08:02,950'>  </timestamp>
+      <text>faster for me to get</text>
+      <text>to this fire text</text>
+   </entry>
+   <entry>
+      <number>141</number>
+      <timestamp from='00:08:02,950' to='00:08:06,190'>  </timestamp>
+      <text>analysis hub if I do</text>
+      <text>that from here I can just</text>
+   </entry>
+   <entry>
+      <number>142</number>
+      <timestamp from='00:08:06,190' to='00:08:08,050'>  </timestamp>
+      <text>show you where this</text>
+      <text>is my stuff's always</text>
+   </entry>
+   <entry>
+      <number>143</number>
+      <timestamp from='00:08:08,050' to='00:08:12,530'>  </timestamp>
+      <text>in class examples and</text>
+      <text>you will find an XSLT</text>
+   </entry>
+   <entry>
+      <number>144</number>
+      <timestamp from='00:08:12,530' to='00:08:16,030'>  </timestamp>
+      <text>to SVG here's a little</text>
+      <text>Pokemon on moves folder</text>
+   </entry>
+   <entry>
+      <number>145</number>
+      <timestamp from='00:08:16,030' to='00:08:19,850'>  </timestamp>
+      <text>and there's some pretty</text>
+      <text>simple xml in here</text>
+   </entry>
+   <entry>
+      <number>146</number>
+      <timestamp from='00:08:19,850' to='00:08:25,030'>  </timestamp>
+      <text>where every move element</text>
+      <text>has categories and</text>
+   </entry>
+   <entry>
+      <number>147</number>
+      <timestamp from='00:08:25,030' to='00:08:29,330'>  </timestamp>
+      <text>you could count up the</text>
+      <text>number of different</text>
+   </entry>
+   <entry>
+      <number>148</number>
+      <timestamp from='00:08:29,330' to='00:08:31,510'>  </timestamp>
+      <text>things that are like</text>
+      <text>that share the same</text>
+   </entry>
+   <entry>
+      <number>149</number>
+      <timestamp from='00:08:31,510' to='00:08:35,170'>  </timestamp>
+      <text>category um get a count</text>
+      <text>of those things and</text>
+   </entry>
+   <entry>
+      <number>150</number>
+      <timestamp from='00:08:35,170' to='00:08:38,310'>  </timestamp>
+      <text>then try to plot them</text>
+      <text>you know you know as the</text>
+   </entry>
+   <entry>
+      <number>151</number>
+      <timestamp from='00:08:38,310' to='00:08:40,910'>  </timestamp>
+      <text>parts that make a</text>
+      <text>whole these are um this</text>
+   </entry>
+   <entry>
+      <number>152</number>
+      <timestamp from='00:08:40,910' to='00:08:43,090'>  </timestamp>
+      <text>is this is some good</text>
+      <text>data to help show that</text>
+   </entry>
+   <entry>
+      <number>153</number>
+      <timestamp from='00:08:43,090' to='00:08:45,630'>  </timestamp>
+      <text>so mess around you</text>
+      <text>don't have to use these</text>
+   </entry>
+   <entry>
+      <number>154</number>
+      <timestamp from='00:08:45,630' to='00:08:47,710'>  </timestamp>
+      <text>two files but I'm</text>
+      <text>suggesting that they might</text>
+   </entry>
+   <entry>
+      <number>155</number>
+      <timestamp from='00:08:47,710' to='00:08:52,070'>  </timestamp>
+      <text>be good for doing a</text>
+      <text>quick visual analysis</text>
+   </entry>
+   <entry>
+      <number>156</number>
+      <timestamp from='00:08:52,070' to='00:08:57,550'>  </timestamp>
+      <text>and see if you can make</text>
+      <text>some kind of SVG plot</text>
+   </entry>
+   <entry>
+      <number>157</number>
+      <timestamp from='00:08:57,550' to='00:08:59,750'>  </timestamp>
+      <text>that plots the parts</text>
+      <text>of a complete whole.</text>
+   </entry>
+   <entry>
+      <number>158</number>
+      <timestamp from='00:09:00,210' to='00:09:03,650'>  </timestamp>
+      <text>Alright, that's it.</text>
+      <text>I'm happy that finally</text>
+   </entry>
+   <entry>
+      <number>159</number>
+      <timestamp from='00:09:03,650' to='00:09:05,850'>  </timestamp>
+      <text>worked and I will</text>
+      <text>see you next week.</text>
+   </entry>
+</trancript>

@@ -1,0 +1,13 @@
+trancript: entry++newline.
+entry: number, newline, timestamp+, newline, text, newline, text?, newline?.
+number: digit+.
+-digit: ["0"-"9"].
+-newline: -#d?, -#a.
+timestamp: @from, -separator, @to.
+-separator: space*, -"-"+, -">", space*.
+@from: time.
+@to: time.
+time: digit+, ":", digit+, ":", digit+, ",", digit+.
+text: word++space.
+-word: [L; "." ; N; "'" ; "," ; "-"]+.
+-space: #20.

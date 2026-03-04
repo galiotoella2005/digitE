@@ -1,0 +1,9 @@
+heading: label++spacePattern.
+label: word, -"."?.
+-spacePattern: newline, tab, newline.
+-newline: -#d?, -#a.
+-tab: -#9.
+-word: [L; "'"]+.
+-dash: #2014.
+-space: #20.
+-digits: [N]+.

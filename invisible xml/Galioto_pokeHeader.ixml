@@ -1,0 +1,19 @@
+xml: heading, move++newline.
+heading: label++spacePattern, newline.
+label: word.
+-spacePattern: newline, tab, newline.
+-newline: -#d?, -#a.
+-tab: -#9.
+move: name, gap, type, gap, category, gap, power, gap, accuracy, gap, pp, gap, effect.
+name: word++space.
+type: word.
+category: word.
+power: dash;digits.
+accuracy: dash;digits.
+pp: digits.
+effect: word++space.
+-gap: space?,tab.
+-word: [L; "'"; "."; ","; "-"; N]+.
+-dash: #2014.
+-space: #20.
+-digits: [N]+.
