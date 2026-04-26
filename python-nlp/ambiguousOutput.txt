@@ -1,0 +1,32 @@
+Ambiguous word analysis of adjectives 
+
+Avatar speeches top 15:i: 1384
+good: 264
+great: 177
+little: 172
+right: 169
+sure: 137
+sorry: 102
+other: 101
+own: 96
+old: 95
+nice: 90
+ready: 84
+bad: 81
+much: 78
+new: 78
+SH script top 15:i: 117
+’: 105
+mary: 57
+s: 48
+little: 30
+dead: 22
+t: 18
+other: 16
+final: 15
+long: 14
+following: 14
+strange: 13
+second: 12
+....: 12
+next: 12
