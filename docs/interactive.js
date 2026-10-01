@@ -19,6 +19,7 @@ function changeColor2() {
         pars[i].style.fontWeight="bold";
 }}
 
+
 // COMMENTS TO SELF: 
 // When writing JavaScript as a separate file, you need to be explicit about when and how events must happen
 // Set up event listeners that listen for events like a web page loading
@@ -26,5 +27,3 @@ function changeColor2() {
 
 // Each 'button' is kept in a <div> element
 // ID in the <p> links to the .js file
-
-
