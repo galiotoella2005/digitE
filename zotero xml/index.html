@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- <meta charset="utf-8"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tag Explorer</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+<main>
+  <h1>Tag Explorer</h1>
+  <p class="sub">Load a Zotero TEI export to see which tags you use most,
+    which tags show up together frequently, and which readings hold these tags.</p>
+
+  <section id="loader">
+    <label class="drop" id="drop">
+      <strong>Choose your Zotero TEI export (.xml)</strong> or drop it here
+      <input type="file" id="file" accept=".xml,text/xml,application/xml" hidden>
+    </label>
+    <p id="status" role="status"></p>
+  </section>
+
+  <div id="app" hidden>
+    <p id="summary"></p>
+    <details id="housekeeping"><summary id="hkSummary"></summary><div id="hkBody"></div></details>
+
+    <div class="grid">
+      <section>
+        <h2>Tags by frequency</h2>
+        <div id="bars"></div>
+      </section>
+      <section>
+        <h2>Tags that appear together</h2>
+        <div class="controls">
+          <label for="minCount">Show tags used at least</label>
+          <input type="range" id="minCount" min="1" max="1" value="1">
+          <output id="minOut">1</output><span>times</span>
+        </div>
+        <svg id="net" viewBox="0 0 760 700" role="img" aria-label="Tag co-occurrence network"></svg>
+        <p class="small">Circle size = how many readings use the tag. Line thickness = how many readings use both tags. Click a tag to see its readings.</p>
+      </section>
+    </div>
+
+    <section style="margin-top:16px">
+      <div class="list-head">
+        <h2 id="listTitle"></h2>
+        <button class="btn" id="clear" hidden>Show all</button>
+      </div>
+      <ul id="items"></ul>
+    </section>
+  </div>
+</main>
+
+</body>
+</html>

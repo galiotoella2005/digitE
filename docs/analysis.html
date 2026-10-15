@@ -6,7 +6,14 @@
         <meta name="author" content="My Name" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="webstyle.css" />
-        
+         <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+        }
+			}
+		</script>
     </head>
     <!--This page is published at https://newtfire.github.io/textEncoding-Hub/copy-and-rename-to-docs/ -->
     <body>
@@ -16,10 +23,11 @@
             <li><a href="texts.html">Texts</a></li>
             <li><a href="analysis.html">Analysis</a></li>
         </ul>
-        <h1>Content Coming Soon!</h1>
+        <h1>Test</h1>
+        <script type="module" source="interactive2.js"></script>
+        <!-- put the js file in the body because that's where the diagram will be -->
+
+     
         
-        <p>We are at <a href="https://behrend.psu.edu/">Penn State Erie, The Behrend College</a>.</p>
-        <!--ebb: The <a> element above is showing how to make an *absolute* file association with a literal, full website address. 
-            Only do this for pointing OUTSIDE your own repo. -->
     </body>
 </html>
